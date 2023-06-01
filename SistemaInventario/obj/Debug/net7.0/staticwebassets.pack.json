@@ -13,6 +13,62 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\confirmacion.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\confirmacion.jpg"
+    },
+    {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\icono.ico",
+      "PackagePath": "staticwebassets\\imagenes\\icono.ico"
+    },
+    {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\icono.png",
+      "PackagePath": "staticwebassets\\imagenes\\icono.png"
+    },
+    {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\0a1f22f1-8977-4d86-9fe1-10894d2024f5.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\0a1f22f1-8977-4d86-9fe1-10894d2024f5.JPG"
+    },
+    {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\25697b72-9723-4cce-8cbb-418a49bc1593.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\25697b72-9723-4cce-8cbb-418a49bc1593.JPG"
+    },
+    {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\320fe450-20bc-4b31-92dc-ee18b2d78932.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\320fe450-20bc-4b31-92dc-ee18b2d78932.JPG"
+    },
+    {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\41bdb766-39aa-4965-a5b4-8ea11c9a2962.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\41bdb766-39aa-4965-a5b4-8ea11c9a2962.JPG"
+    },
+    {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\631416fd-8dba-4868-bdf8-aef488f10523.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\631416fd-8dba-4868-bdf8-aef488f10523.JPG"
+    },
+    {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\8d3b8fc2-906a-45d4-890c-3d240f8d2ead.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\8d3b8fc2-906a-45d4-890c-3d240f8d2ead.JPG"
+    },
+    {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\94d3b98a-6faa-45e2-95b0-984fd2f98927.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\94d3b98a-6faa-45e2-95b0-984fd2f98927.JPG"
+    },
+    {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\a362b8a1-f3d3-45e5-bfc4-a3a3af6ccd0d.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\a362b8a1-f3d3-45e5-bfc4-a3a3af6ccd0d.JPG"
+    },
+    {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\a54512e8-6ea1-40cf-8319-46cfb153f07d.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\a54512e8-6ea1-40cf-8319-46cfb153f07d.JPG"
+    },
+    {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\de3e2d58-a835-4a26-8a89-bad531c48ec0.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\de3e2d58-a835-4a26-8a89-bad531c48ec0.JPG"
+    },
+    {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\e7a175f6-f420-4a66-bed9-ec8919cbaa0d.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\e7a175f6-f420-4a66-bed9-ec8919cbaa0d.JPG"
+    },
+    {
       "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\bodega.js",
       "PackagePath": "staticwebassets\\js\\bodega.js"
     },

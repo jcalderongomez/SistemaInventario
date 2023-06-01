@@ -1747,6 +1747,7 @@
       },
       "SistemaInventario.Modelos/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "SistemaInventario.Utilidades": "1.0.0"
         },
         "runtime": {
