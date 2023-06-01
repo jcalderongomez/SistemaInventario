@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-SistemaInventario-c5194395-6920-4008-91ea-af515c60d673</UserSecretsId>
   </PropertyGroup>
@@ -35,9 +34,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
     <Folder Include="Areas\Inventario\Data\" />
     <Folder Include="Areas\Inventario\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Areas\Admin\Views\Categoria\Index.cshtml" />
+    <None Include="Areas\Admin\Views\Categoria\Upsert.cshtml" />
   </ItemGroup>
 
 </Project>
