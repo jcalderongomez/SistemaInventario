@@ -47,4 +47,11 @@
     <None Include="Areas\Admin\Views\Producto\Upsert.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Areas\Inventario\Views\Home\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

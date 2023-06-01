@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7H0FQBab6rt0GjuRQAWfOsZzfn9svg8i2mUlbPZGTKc=",
+  "Hash": "Vg0esribaSizNQlR/9nDf/czWNpHNsv5dAIflMwR0Rk=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -1205,6 +1205,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\producto\\320fe450-20bc-4b31-92dc-ee18b2d78932.JPG"
+    },
+    {
+      "Identity": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\351fc533-51b1-4efe-bc1d-24d809858931.JPG",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "imagenes/producto/351fc533-51b1-4efe-bc1d-24d809858931.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\producto\\351fc533-51b1-4efe-bc1d-24d809858931.JPG"
     },
     {
       "Identity": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\41bdb766-39aa-4965-a5b4-8ea11c9a2962.JPG",
