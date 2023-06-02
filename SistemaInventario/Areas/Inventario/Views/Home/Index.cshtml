@@ -1,6 +1,5 @@
 ﻿@model SistemaInventario.Modelos.Especificaciones.PagedList<SistemaInventario.Modelos.Producto>
 @using SistemaInventario.Utilidades
-
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -21,7 +20,8 @@
             <div class="col-lg-6 col-md-6 col-sm-6 d-flex">
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Buscar ..." aria-label="Buscar" aria-describedby="button-addon2"
-                           name="busqueda" value="@ViewData["BusquedaActual"]" />
+                      name="busqueda" value="@ViewData["BusquedaActual"]"
+                    />
                     <button type="submit" class="btn btn-outline-primary">
                         <i class="bi bi-search"></i>
                     </button>
@@ -50,9 +50,11 @@
 
         <a asp-action="Index"
            asp-route-pageNumber="@(1)" class="btn btn-outline-primary"
-           asp-route-busquedaActual="@ViewData["BusquedaActual"]">
+           asp-route-busquedaActual="@ViewData["BusquedaActual"]"
+           >
             <i class="bi bi-skip-start-fill"></i>
         </a>
+
         <a asp-action="Index"
            asp-route-pageNumber="@((int)ViewData["PageNumber"]-1)" class="btn btn-outline-primary @ViewData["Previo"]"
            asp-route-busquedaActual="@ViewData["BusquedaActual"]">
