@@ -149,6 +149,10 @@
       "PackagePath": "staticwebassets\\js\\marca.js"
     },
     {
+      "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\orden.js",
+      "PackagePath": "staticwebassets\\js\\orden.js"
+    },
+    {
       "Id": "D:\\Desarrollos UCaldas\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\producto.js",
       "PackagePath": "staticwebassets\\js\\producto.js"
     },
