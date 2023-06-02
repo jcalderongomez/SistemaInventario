@@ -7,7 +7,7 @@ using SistemaInventario.Utilidades;
 namespace SistemaInventario.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    //[Authorize(Roles = DS.Role_Admin)]
+    [Authorize(Roles = DS.Role_Admin)]
     public class BodegaController : Controller
     {
 

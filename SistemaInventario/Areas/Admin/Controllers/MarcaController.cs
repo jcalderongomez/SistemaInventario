@@ -8,7 +8,7 @@ using System.Data;
 namespace SistemaInventario.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    //[Authorize(Roles = DS.Role_Admin)]
+    [Authorize(Roles = DS.Role_Admin)]
     public class MarcaController : Controller
     {
 
