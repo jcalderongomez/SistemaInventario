@@ -43,6 +43,7 @@
     <None Include="Areas\Admin\Views\Marca\Upsert.cshtml" />
     <None Include="Areas\Admin\Views\Producto\Index.cshtml" />
     <None Include="Areas\Admin\Views\Producto\Upsert.cshtml" />
+    <None Include="Areas\Admin\Views\Usuario\Index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

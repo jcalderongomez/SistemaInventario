@@ -179,6 +179,15 @@ namespace SistemaInventario.Areas.Identity.Pages.Account
 
                     await _userManager.AddToRoleAsync(user, DS.Role_Admin);
 
+                    //if (user.Role ==null)  // El Valor que recibe desde el Page
+                    //{
+                    //    await _userManager.AddToRoleAsync(user, DS.Role_Cliente);
+                    //}
+                    //else
+                    //{
+                    //    await _userManager.AddToRoleAsync(user, user.Role);
+                    //}
+
                     var userId = await _userManager.GetUserIdAsync(user);
                     //var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     //code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
@@ -197,8 +206,16 @@ namespace SistemaInventario.Areas.Identity.Pages.Account
                     }
                     else
                     {
-                        await _signInManager.SignInAsync(user, isPersistent: false);
-                        return LocalRedirect(returnUrl);
+                        if (user.Role == null)
+                        {
+                            await _signInManager.SignInAsync(user, isPersistent: false);
+                            return LocalRedirect(returnUrl);
+                        }
+                        else
+                        {
+                            // Administrador esta registrando un nuevo Usuario
+                            return RedirectToAction("Index", "Usuario", new { Area = "Admin" });
+                        }
                     }
                 }
                 foreach (var error in result.Errors)
