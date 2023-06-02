@@ -23,7 +23,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
 
         IKardexInventarioRepositorio KardexInventario { get; }
 
-        //ICompaniaRepositorio Compania { get; }
+        ICompaniaRepositorio Compania { get; }
 
         //ICarroCompraRepositorio CarroCompra { get; }
 
