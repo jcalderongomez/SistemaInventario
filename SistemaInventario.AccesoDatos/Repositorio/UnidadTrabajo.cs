@@ -26,11 +26,11 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
         public ICompaniaRepositorio Compania { get; private set; }
 
-        //public ICarroCompraRepositorio CarroCompra { get; private set; }
+        public ICarroCompraRepositorio CarroCompra { get; private set; }
 
-        //public IOrdenRepositorio Orden { get; private set; }
+        public IOrdenRepositorio Orden { get; private set; }
 
-        //public IOrdenDetalleRepositorio OrdenDetalle { get; private set; }
+        public IOrdenDetalleRepositorio OrdenDetalle { get; private set; }
 
         public UnidadTrabajo(ApplicationDbContext db)
         {
@@ -45,9 +45,9 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             InventarioDetalle = new InventarioDetalleRepositorio(_db);
             KardexInventario = new KardexInventarioRepositorio(_db);
             Compania = new CompaniaRepositorio(_db);
-            //CarroCompra = new CarroCompraRepositorio(_db);
-            //Orden = new OrdenRepositorio(_db);
-            //OrdenDetalle = new OrdenDetalleRepositorio(_db);
+            CarroCompra = new CarroCompraRepositorio(_db);
+            Orden = new OrdenRepositorio(_db);
+            OrdenDetalle = new OrdenDetalleRepositorio(_db);
         }
       
         public void Dispose()

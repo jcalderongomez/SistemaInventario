@@ -29,6 +29,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.6" />
     <PackageReference Include="Rotativa.AspNetCore" Version="1.2.0" />
+    <PackageReference Include="Stripe.net" Version="41.19.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,6 +47,9 @@
     <None Include="Areas\Admin\Views\Producto\Index.cshtml" />
     <None Include="Areas\Admin\Views\Producto\Upsert.cshtml" />
     <None Include="Areas\Admin\Views\Usuario\Index.cshtml" />
+    <None Include="Areas\Inventario\Views\Carro\Index.cshtml" />
+    <None Include="Areas\Inventario\Views\Carro\OrdenConfirmacion.cshtml" />
+    <None Include="Areas\Inventario\Views\Carro\Proceder.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
