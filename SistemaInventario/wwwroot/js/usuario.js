@@ -28,8 +28,38 @@ function loadDataTable() {
             { "data": "nombres" },           
             { "data": "apellidos" },
             { "data": "phoneNumber" },
-            { "data": "role" }
+            { "data": "role" },
+            {
+                "data": {
+                    id: "id", lockoutEnd: "lockoutEnd"
+                 },
+                "render": function (data) {
+                    let hoy = new Date().getTime();
+                    let bloqueo = new Date(data.lockoutEnd).getTime();
+                    if (bloqueo > hoy) {
+                        // Usuario esta Bloqueado
+                        return `
+                            <div class="text-center">
+                               <a onclick=BloquearDesbloquear('${data.id}') class="btn btn-danger text-white" style="cursor:pointer", width:150px >
+                                    <i class="bi bi-unlock-fill"></i> Desbloquear
+                               </a> 
+                            </div>
+                        `;
+                    }
+                    else {
+                        return `
+                            <div class="text-center">
+                               <a onclick=BloquearDesbloquear('${data.id}') class="btn btn-success text-white" style="cursor:pointer", width:150px >
+                                    <i class="bi bi-lock-fill"></i> Bloquear
+                               </a> 
+                            </div>
+                        `;
+                    }
+                   
+                }
+            }
          ]
+
     });
 }
 
