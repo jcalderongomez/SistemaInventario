@@ -50,12 +50,12 @@ namespace SistemaInventario.Areas.Admin.Controllers
         public async Task<IActionResult> EnviarOrden(OrdenDetalleVM ordenDetalleVM)
         {
             var orden = await _unidadTrabajo.Orden.ObtenerPrimero(o => o.Id == ordenDetalleVM.Orden.Id);
-            orden.EstadoOrden = DS.EstadoEnProceso;
+            orden.EstadoOrden = DS.EstadoEnviado;
             orden.Carrier = ordenDetalleVM.Orden.Carrier;
             orden.NumeroEnvio = ordenDetalleVM.Orden.NumeroEnvio;
             orden.FechaEnvio = DateTime.Now;
             await _unidadTrabajo.Guardar();
-            TempData[DS.Exitosa] = "Orden cambiada a Estado en proceso";
+            TempData[DS.Exitosa] = "Orden cambiada a Estado enviado";
             return RedirectToAction("Detalle", new { id = ordenDetalleVM.Orden.Id });
         }
         #region

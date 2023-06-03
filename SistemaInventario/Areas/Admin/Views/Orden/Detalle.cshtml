@@ -207,7 +207,6 @@
                                 </li>
                             </ul>
 
-
                             @if (User.IsInRole(DS.Role_Admin))
                             {
                                 @if (Model.Orden.EstadoOrden == DS.EstadoAprobado)
@@ -219,7 +218,7 @@
                                 @if (Model.Orden.EstadoOrden == DS.EstadoEnProceso)
                                 {
                                     <input type="submit" value="Enviar Orden" onclick="return validarIngreso()" 
-                                        class="btn btn-primary form-control" formaction="/Admin/Orden/EnviarOrden"
+                                        class="btn btn-success form-control" formaction="/Admin/Orden/EnviarOrden"
                                         formmethod="post"/>
                                 }
                             }
@@ -250,8 +249,7 @@
                 swal("Error", "Ingrese el número de Envio", "error")
                 return false;
             }
-
+            return true;
         }
-
     </script>
 }
